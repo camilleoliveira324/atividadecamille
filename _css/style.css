@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background-color: rgb(255, 231, 199);
+
+}
+#sidebar {
+    width: 200px;
+    height: 100vh;
+    position:fixed;
+    background-color: purple;
+    transition: 0.4s;
+
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    
+}
+.navbar-nav {
+    margin-left: 10%;
+}
+
+.nav-link:active, .nav-link:focus, .nav-link:houver {
+    background-color: rgb(54, 54, 54);
+}
+
+.my-container {
+    margin-left: 200px;
+    margin-top: 0;
+}
+
+#menu {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 183, 243);
+    position:fixed;
+    min-width: 90%;
+}
+
+section {
+    margin-top: 0;
+    display: block;
+}
+
+.bi-flower2{
+    color: purple;
+}
+
+.carousel-item {
+    background-color: rgb(54, 54, 54);
+}
+
+#erza, #maki, #dazai, #katsuki {
+    padding: 15px;
+    padding-left: 100px;
+    align-items: end;
+}
+
+#maki {
+    height: 350px;
+    max-width: 80%;
+}
+#dazai {
+    max-width: 85%;
+}
+#katsuki {
+    max-width: 85%;
+}
+
+#conteudo {
+    text-decoration-color: whitesmoke;
+}
+
+h2, #paragrafo-slide {
+    color:whitesmoke;
+    text-align:end;
+    max-width: 70%;
+    margin-left: 300px;
+    margin-right: 0;
+}
+h1, h2 {
+    font-family: 'Architects Daughter', cursive;;
+}
+.p-profissional {
+    font-size: 20px;
+}
+h1, h3, .descricao{
+    text-align: left;
+}
+.tita {
+    align-items: center;
+    align-self: center;
+    height: 500px;
+}
+#scarlet, #zenin {
+    background-color: #ffc107;
+    padding: 10px;
+}
+.direita {
+    text-align: right;
+}
