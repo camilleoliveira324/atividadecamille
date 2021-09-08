@@ -84,7 +84,7 @@ h2, #paragrafo-slide {
     margin-right: 0;
 }
 h1, h2 {
-    font-family: 'Architects Daughter', cursive;;
+    font-family: 'Amatic SC', cursive;
 }
 .p-profissional {
     font-size: 20px;
@@ -98,9 +98,12 @@ h1, h3, .descricao{
     height: 500px;
 }
 #scarlet, #zenin {
-    background-color: #ffc107;
+    
     padding: 10px;
 }
 .direita {
     text-align: right;
+}
+h1 {
+    font-size: 50px;
 }
