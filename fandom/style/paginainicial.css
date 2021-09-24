@@ -30,7 +30,7 @@ li, a {
     margin-top: 20px;
 }
 .circle { 
-    border-width: 3px;
+    border-width: 0;
     border-style: solid;
     border-color: #ffc500;
     background-color: white;
@@ -42,7 +42,7 @@ li, a {
     margin-top: 12px;
  }
 
- .televisao !important {
+ .televisao {
      border: none !important;
      border-width: 0;
     border-style:none;
