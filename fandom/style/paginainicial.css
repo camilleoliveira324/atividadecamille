@@ -1,18 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.bg-mapa {
+    background-color: #ffdb94;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 .sidebar {
     text-align: center;
-    width: 60px;
+    width: 70px;
     background-color: #ffc500;
     font-size: 20px;
     height: 100vh;
     padding: 5px;
+    position: fixed;
 }
 .logofandom {
-    width: 35px;
+    width: 45px;
+    padding: 2px;
 }
 
 li, a {
@@ -21,13 +32,18 @@ li, a {
     text-align: center;
 }
 
-#search {
+li {
+    padding: 5px;
+    line-height: 20px;
+}
+
+#search, #plus {
     color: #550343 !important;
-    margin-top: 12px;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 #game, #film, #tv, #book {
     color: #fa0f62 !important;
-    margin-top: 20px;
 }
 .circle { 
     border-width: 0;
@@ -38,19 +54,38 @@ li, a {
     border-radius: 70px; 
     padding: 6% 9% 6% 9%; 
     -moz-border-radius: 90px; 
-    -webkit-border-radius: 90px; 
-    margin-top: 12px;
+    -webkit-border-radius: 90px;
  }
 
- .televisao {
-     border: none !important;
-     border-width: 0;
-    border-style:none;
-    background-color:#ffc500;
-    border-image: initial;
-    border-radius: 70px; 
-    padding: 6% 9% 6% 9%; 
-    -moz-border-radius: 90px; 
-    -webkit-border-radius: 90px; 
-    margin-top: 12px;
+ small {
+     color: #550343 ;
+     font-family: 'Rubik', sans-serif;
+     text-transform: uppercase;
+     font-size: 10px;
+     
+ }
+
+ #plus {
+     font-size: 25px;
+     font-weight: bold !important;
+ }
+
+ #mais {
+     line-height: 10px !important;
+ }
+
+ #user {
+     position: relative;
+     align-items: flex-start;
+ }
+
+
+
+
+ .container {
+     max-width: 150vh;
+     justify-content: center !important;
+     padding: 20px;
+     display: flex;
+     align-items: center;
  }

@@ -1,0 +1,63 @@
+#banner{overflow:hidden;position:relative;display:block;margin:0px auto 0;padding:0;}
+.slide1-img, .slide1-text, .slide2-img, .slide2-text, .slide3-img, .slide3-text, .slide4-img, .slide4-text, .slide5-img, .slide5-text, .logo{position:absolute;opacity:0}
+
+
+
+/* SLIDES */
+@-ms-keyframes slide1-text {0%{bottom:-50px;opacity:0;}3%{bottom:0px;opacity:1;}32%{bottom:0px;opacity:1;}33%{bottom:-50px;opacity:0;}}
+@-webkit-keyframes slide1-text {0%{bottom:-50px;opacity:0;}3%{bottom:0px;opacity:1;}32%{bottom:0px;opacity:1;}33%{bottom:-50px;opacity:0;}}
+@-moz-keyframes slide1-text {0%{bottom:-50px;opacity:0;}3%{bottom:0px;opacity:1;}32%{bottom:0px;opacity:1;}33%{bottom:-50px;opacity:0;}}
+@-o-keyframes slide1-text {0%{bottom:-50px;opacity:0;}3%{bottom:0px;opacity:1;}32%{bottom:0px;opacity:1;}33%{bottom:-50px;opacity:0;}}
+@keyframes slide1-text {0%{bottom:-50px;opacity:0;}3%{bottom:0px;opacity:1;}32%{bottom:0px;opacity:1;}33%{bottom:-50px;opacity:0;}}
+@-ms-keyframes slide1-img {0%{opacity:0;}3%{opacity:1;}32%{opacity:1;}33%{opacity:0;}}
+@-webkit-keyframes slide1-img {0%{opacity:0;}3%{opacity:1;}32%{opacity:1;}33%{opacity:0;}}
+@-moz-keyframes slide1-img {0%{opacity:0;}3%{opacity:1;}32%{opacity:1;}33%{opacity:0;}}
+@-o-keyframes slide1-img {0%{opacity:0;}3%{opacity:1;}32%{opacity:1;}33%{opacity:0;}}
+@keyframes slide1-img {0%{opacity:0;}3%{opacity:1;}32%{opacity:1;}33%{opacity:0;}}
+
+@-ms-keyframes slide2-text {33%{bottom:-50px;opacity:0;}36%{bottom:0px;opacity:1;}65%{bottom:0px;opacity:1;}66%{bottom:-50px;opacity:0;}}
+@-webkit-keyframes slide2-text {33%{bottom:-50px;opacity:0;}36%{bottom:0px;opacity:1;}65%{bottom:0px;opacity:1;}66%{bottom:-50px;opacity:0;}}
+@-moz-keyframes slide2-text {33%{bottom:-50px;opacity:0;}36%{bottom:0px;opacity:1;}65%{bottom:0px;opacity:1;}66%{bottom:-50px;opacity:0;}}
+@-o-keyframes slide2-text {33%{bottom:-50px;opacity:0;}36%{bottom:0px;opacity:1;}65%{bottom:0px;opacity:1;}66%{bottom:-50px;opacity:0;}}
+@keyframes slide2-text {33%{bottom:-50px;opacity:0;}36%{bottom:0px;opacity:1;}65%{bottom:0px;opacity:1;}66%{bottom:-50px;opacity:0;}}
+@-ms-keyframes slide2-img {33%{opacity:0;}36%{opacity:1;}65%{opacity:1;}66%{opacity:0;}}
+@-webkit-keyframes slide2-img {33%{opacity:0;}36%{opacity:1;}65%{opacity:1;}66%{opacity:0;}}
+@-moz-keyframes slide2-img {33%{opacity:0;}36%{opacity:1;}65%{opacity:1;}66%{opacity:0;}}
+@-o-keyframes slide2-img {33%{opacity:0;}36%{opacity:1;}65%{opacity:1;}66%{opacity:0;}}
+@keyframes slide2-img {33%{opacity:0;}36%{opacity:1;}65%{opacity:1;}66%{opacity:0;}}
+
+@-ms-keyframes slide3-text {66%{bottom:-50px;opacity:0;}69%{bottom:0px;opacity:1;}100%{bottom:0px;opacity:1;}}
+@-webkit-keyframes slide3-text {66%{bottom:-50px;opacity:0;}69%{bottom:0px;opacity:1;}100%{bottom:0px;opacity:1;}}
+@-moz-keyframes slide3-text {66%{bottom:-50px;opacity:0;}69%{bottom:0px;opacity:1;}100%{bottom:0px;opacity:1;}}
+@-o-keyframes slide3-text {66%{bottom:-50px;opacity:0;}69%{bottom:0px;opacity:1;}100%{bottom:0px;opacity:1;}}
+@keyframes slide3-text {66%{bottom:-50px;opacity:0;}69%{bottom:0px;opacity:1;}100%{bottom:0px;opacity:1;}}
+@-ms-keyframes slide3-img {66%{opacity:0;}69%{opacity:1;}100%{opacity:1;}}
+@-webkit-keyframes slide3-img {66%{opacity:0;}69%{opacity:1;}100%{opacity:1;}}
+@-moz-keyframes slide3-img {66%{opacity:0;}69%{opacity:1;}100%{opacity:1;}}
+@-o-keyframes slide3-img {66%{opacity:0;}69%{opacity:1;}100%{opacity:1;}}
+@keyframes slide3-img {66%{opacity:0;}69%{opacity:1;}100%{opacity:1;}}
+
+
+@-ms-keyframes logo {0%{opacity:0;}3%{opacity:1;}100%{opacity:1;}}
+@-webkit-keyframes logo {0%{opacity:0;}3%{opacity:1;}100%{opacity:1;}}
+@-moz-keyframes logo {0%{opacity:0;}3%{opacity:1;}100%{opacity:1;}}
+@-o-keyframes logo {0%{opacity:0;}3%{opacity:1;}100%{opacity:1;}}
+@keyframes logo {0%{opacity:0;}3%{opacity:1;}100%{opacity:1;}}
+
+/* GLOBAL PREFERENCES */
+.slide1-img, .slide1-text, .slide2-img, .slide2-text, .slide3-img, .slide3-text, .slide4-img, .slide4-text,  .slide5-img, .slide5-text, .logo{
+    -webkit-animation-duration: 15s;-moz-animation-duration: 15s;-ms-animation-duration: 15s;-o-animation-duration: 15s;animation-duration: 15s;-webkit-animation-iteration-count: 1;-moz-animation-iteration-count: 1;-ms-animation-iteration-count: 1;-o-animation-iteration-count: 1;animation-iteration-count: 1;-webkit-animation-timing-function: ease-in-out;-moz-animation-timing-function: ease-in-out;-ms-animation-timing-function: ease-in-out;-o-animation-timing-function: ease-in-out;animation-timing-function: ease-in-out;-webkit-animation-fill-mode: both;-moz-animation-fill-mode: both;-ms-animation-fill-mode: both;-o-animation-fill-mode: both;animation-fill-mode: both;  
+}
+
+/* ADD AO SELETOR */
+.slide1-text {-webkit-animation-name: slide1-text;-moz-animation-name: slide1-text;-ms-animation-name: slide1-text;-o-animation-name: slide1-text;animation-name: slide1-text;}
+.slide1-img {-webkit-animation-name: slide1-img;-moz-animation-name: slide1-img;-ms-animation-name: slide1-img;-o-animation-name: slide1-img;animation-name: slide1-img;}
+.slide2-text {-webkit-animation-name: slide2-text;-moz-animation-name: slide2-text;-ms-animation-name: slide2-text;-o-animation-name: slide2-text;animation-name: slide2-text;}
+.slide2-img {-webkit-animation-name: slide2-img;-moz-animation-name: slide2-img;-ms-animation-name: slide2-img;-o-animation-name: slide2-img;animation-name: slide2-img;}
+.slide3-text {-webkit-animation-name: slide3-text;-moz-animation-name: slide3-text;-ms-animation-name: slide3-text;-o-animation-name: slide3-text;animation-name: slide3-text;}
+.slide3-img {-webkit-animation-name: slide3-img;-moz-animation-name: slide3-img;-ms-animation-name: slide3-img;-o-animation-name: slide3-img;animation-name: slide3-img;}
+.slide4-text {-webkit-animation-name: slide4-text;-moz-animation-name: slide4-text;-ms-animation-name: slide4-text;-o-animation-name: slide4-text;animation-name: slide4-text;}
+.slide4-img {-webkit-animation-name: slide4-img;-moz-animation-name: slide4-img;-ms-animation-name: slide4-img;-o-animation-name: slide4-img;animation-name: slide4-img;}
+.slide5-text {-webkit-animation-name: slide5-text;-moz-animation-name: slide5-text;-ms-animation-name: slide5-text;-o-animation-name: slide5-text;animation-name: slide5-text;}
+.slide5-img {-webkit-animation-name: slide5-img;-moz-animation-name: slide5-img;-ms-animation-name: slide5-img;-o-animation-name: slide5-img;animation-name: slide5-img;}
+.logo {-webkit-animation-name: logo;-moz-animation-name: logo;-ms-animation-name: logo;-o-animation-name: logo;animation-name: logo;}
