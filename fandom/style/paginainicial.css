@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -20,19 +19,21 @@
     height: 100vh;
     padding: 5px;
     position: fixed;
+    margin-top: 0 !important;
+    /*display: none;*/
 }
 .logofandom {
     width: 45px;
     padding: 2px;
 }
 
-li, a {
+.li-sidebar, .a-sidebar{
     text-decoration: none;
     list-style-type: none;
     text-align: center;
 }
 
-li {
+.li-sidebar {
     padding: 5px;
     line-height: 20px;
 }
@@ -60,11 +61,13 @@ li {
  small {
      color: #550343 ;
      font-family: 'Rubik', sans-serif;
+     font-weight: 600;
      text-transform: uppercase;
      font-size: 10px;
      
  }
 
+ /*Sidebar icons*/
  #plus {
      font-size: 25px;
      font-weight: bold !important;
@@ -80,12 +83,183 @@ li {
  }
 
 
-
-
- .container {
-     max-width: 150vh;
-     justify-content: center !important;
-     padding: 20px;
-     display: flex;
-     align-items: center;
+.container {
+    width: 180vh !important;
+    margin-left: 25vh !important;
+}
+.container-header {
+    padding-top: 10vh;
+}
+.li-header, .a-header {
+    text-decoration: none;
+    list-style-type: none;
+    color: #131313 !important;
+    font-family: 'Rubik', sans-serif;
  }
+
+
+ h2, h3, .ul-header, .row, .header-1, .nav-header, .menu, .header-icons {
+     display: flex !important;
+     justify-content:space-between !important;
+     align-items: center; 
+     flex: 1 1 50px;
+ }
+ .row {
+    flex-direction: column;
+    justify-content: left; 
+ }
+
+ h2 {
+     font-size: 24px;
+     margin-left: 10px;
+     font-weight: 500;
+ }
+ h3 {
+     font-size: 15px;
+     text-align:right !important;
+     margin-right: 15px;
+     font-weight: 400;
+     text-transform: uppercase;
+ }
+
+ .menu-2 {
+     padding: 10px !important;
+     margin-right: 20px !important;
+     font-size: 12px;
+     flex-wrap: wrap;
+     font-weight: 800;
+     text-transform: uppercase;
+ }
+ .ul-header {
+    justify-content: left !important;
+ }
+
+ .livrinho {
+     margin-right: 8px !important;
+ }
+
+ .header-1 {
+     width: 100%;
+ }
+ .header-icons {
+     padding: 5px;
+     border-width: 1px;
+     border-style: solid;
+     border-color: #131313;
+     border-radius: 5px; 
+ }
+
+ .li-header {
+     padding: 5px;
+     padding-bottom: 0;
+     padding-top: 0;
+ }
+
+ .one-wiki {
+     justify-content: left !important;
+ }
+
+ .nav-header {
+     align-items:baseline;
+     justify-content: left !important;
+ }
+ 
+ .header-top {
+     align-items:flex-end;
+ }
+ 
+
+
+
+
+ /*Main do site*/
+ .container-main {
+    background-color: #ffffff;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.ctn > .idioma {
+    display: flex;
+    justify-content: end;
+}
+
+.ctn > .idioma > button {
+    color: #3a3a3a !important;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: none;
+    font-weight: 500;
+}
+
+.ctn > .idioma > .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content > a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+  }
+  
+  .dropdown-content > a:hover {background-color: #f1f1f1}
+  
+  .idioma:hover .dropdown-content {
+    display: block;
+  }
+  
+  .idioma:hover button {
+    background-color: #3e8e81;
+  }
+
+  .ctn > .title > h1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;   
+    font-size: 40px; 
+    color: #3a3a3a; 
+  }
+
+  .ctn > .title > .codigo-fonte {
+      color: #006cb0;
+      font-family: 'Rubik', sans-serif;
+      font-weight: 600;   
+      font-size: 13px; 
+      text-transform: uppercase;
+  }
+
+  .ctn > .title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .codigo-fonte {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .codigo-fonte > p {
+      margin: 2px;
+      margin-left: 15px;
+      padding-top: 5px;
+  }
+
+  .barra {
+      font-weight: 100;
+  }
+  .pontos {
+      font-size: 20px;
+  }
