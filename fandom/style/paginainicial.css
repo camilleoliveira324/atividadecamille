@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@
 
 .bg-mapa {
     background-color: #ffdb94;
+    background-image: url('../public/Site-background-light.png');
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -271,7 +273,7 @@
   /*Section 1*/
   .section-1 {
       background-color: #fff6d1;
-      width: 65%;
+      width: 132%;
       padding: 12px;
       padding-top: 31px;
       border-width: 1px;
@@ -413,4 +415,110 @@
     -webkit-text-stroke-width: 12px; /* largura da borda */
     -webkit-text-stroke-color: #000; /* cor da borda */
     width: 380px !important;
+  }
+
+
+
+
+
+
+  .section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+  }
+
+  .section-2 {
+      max-width: 300px;
+      justify-self: right;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #FFA500;
+      border-radius: 10px; 
+      margin: 2px;
+      padding: 20px;
+      background-color: #fff6d1;
+  }
+
+  .img-artigo {
+      width: 250px;
+      display: flex;
+      justify-content: center !important;
+      text-align: center !important;
+      margin: auto 0;
+  }
+
+  .titulo-artigos, .titulo-citacao {
+    text-align: center;
+    display: flex;
+    justify-content: center !important;
+    padding: 5px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    -webkit-text-stroke-width: 0.5px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
+  }
+
+  .titulo-chapeus {
+      background-color: #cbe6ff;
+      display: flex;
+      justify-content: center !important;
+      font-family: 'Open sans', sans-serif;
+      font-size: 15px;
+      font-weight: 800;
+      color: #131313;
+      width: 100%;
+      padding: 5px;
+      margin: 2px;
+      margin-bottom: 5px;
+  }
+
+  .citacao-law {
+    text-align: center;
+    display: flex;
+    justify-content: center !important;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3a3a3a;
+  }
+
+  .law {
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: none;
+      color: #3a3a3a;
+      font-size: 11px;
+      margin-top: 8px !important;
+      padding-top: 10px !important;
+  }
+  small > b{
+      color:#006cb0;
+  }
+
+  tr {
+    border-width: 10px;
+    border-style: solid;
+    border-color: #FFA500;
+  }
+
+  main {
+      margin-bottom: 80px;
+  }
+
+  .footer-roxo {
+      background-color: #280033;
+      width: 94.5%;
+      float: right;
+  }
+
+  .footer-preto {
+    margin-top: 50px !important;
+    padding: 20px;
+    background-color: #000;
+    color:#f9f9f9;
+    text-align: center;
+
   }
